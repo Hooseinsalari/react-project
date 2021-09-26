@@ -1,0 +1,32 @@
+.container {
+    background-color: #95b2d0;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(0px);
+    transition: all 0.3s 0.1s ease-in-out;
+}
+
+.container:hover {
+    transform: translateY(-20px);
+    transition: all 0.3s 0.1s ease-in-out;
+}
+
+.container img {
+    width: 230px;
+    
+}
+
+.container h3 {
+    margin: 20px;
+}
+
+.container h4 {
+    background-color: rgb(17, 88, 41);
+    display: inline-block;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+    margin: 3px 0 10px 20px;
+}

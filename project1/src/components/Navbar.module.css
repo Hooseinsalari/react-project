@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c2249;
+    font-family: 'Lobster', cursive;
+    align-items: center;
+    color: #e8cddd;
+}
+
+.header .left {
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.header .right .list{
+    list-style: none;
+    display: flex;
+}
+
+.header .right .list li {
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.header .right .list li:hover {
+    text-decoration: underline;
+    
+}

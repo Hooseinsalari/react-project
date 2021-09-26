@@ -1,0 +1,28 @@
+.container {
+    background-color: #123262;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container input {
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.container input[type=text] {
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.container h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
