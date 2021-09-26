@@ -9,7 +9,7 @@ const Banner = () => {
             <img src={banner} alt={banner}/>
             <div className={styles.textContainer}>
                 <h1>Welcome</h1>
-                <p>I learning <span>Reactjs</span></p>
+                <p>I am learning <span>Reactjs</span></p>
             </div>
         </div>
     );
