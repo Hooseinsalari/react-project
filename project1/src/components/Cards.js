@@ -11,10 +11,10 @@ class Cards extends Component {
     render() {
         return (
             <div className={styles.container}>
-                <Card image={product1} name="product1" price="100 $"/>
-                <Card image={product2} name="product2" price="200 $"/>
-                <Card image={product3} name="product3" price="300 $"/>
-                <Card image={product4} name="product4" price="400 $"/>
+                <Card image={product1} name="product1" price="235 $"/>
+                <Card image={product2} name="product2" price="105 $"/>
+                <Card image={product3} name="product3" price="99 $"/>
+                <Card image={product4} name="product4" price="346 $"/>
             </div>
         );
     }

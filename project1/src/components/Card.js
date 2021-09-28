@@ -34,7 +34,7 @@ class Card extends Component {
             <div className={styles.container}>
                 <img src={image} alt="cloths"/>
                 <h3>{name}</h3>
-                <h4>{price}</h4>
+                <h4>{price} {count ? `* ${count} = ${count * Number(price.split(' ')[0])} $ `:  ''  }</h4>
 
                 <div className={styles.counter}>
                     <img  src={up} alt='icon' onClick={this.UpCount}/>
