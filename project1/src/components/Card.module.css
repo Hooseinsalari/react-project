@@ -16,12 +16,13 @@
 }
 
 .container img {
-    width: 230px;
-    
+    width: 280px;
+    height: 220px;
 }
 
 .container h3 {
     margin: 20px;
+    width: 200px;
 }
 
 .container h4 {
@@ -59,6 +60,7 @@
     border-radius: 5px;
     padding: 0 4px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .container .counter .deactive {
