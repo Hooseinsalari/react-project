@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import { Route , Switch } from 'react-router-dom';
+import { Route , Switch , Redirect } from 'react-router-dom';
+import NoteFoundError from "./components/NoteFoundError";
 
 import LandingPage from "./components/LandingPage";
 import Navbar from './components/Navbar';
@@ -13,10 +14,12 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <Switch>
-          <Route path="/Products" component={Products} />
-          <Route path="/" component={LandingPage} />
-        </Switch>
+          <Switch>
+            <Route path="/Products" component={Products} />
+            <Route path="/NoteFoundError" component={NoteFoundError} />
+            <Route exact path="/" component={LandingPage} />
+            <Redirect to="/NoteFoundError" />
+          </Switch>
         <Footer />
       </div>
     );
